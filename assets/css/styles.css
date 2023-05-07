@@ -294,11 +294,25 @@ body.dark-theme {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 1.15rem 2.75rem;
+  padding: 1.15rem 2.00rem;
   font-weight: var(--font-medium);
   border-radius: 3rem;
   transition: .3s;
 }
+
+.buttonLogin {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background-color: #fff;
+  color: #000000;
+  padding: 1.10rem 3.10rem;
+  font-weight: var(--font-medium);
+  border-radius: 3rem;
+  transition: .3s;
+}
+
 
 .button:hover {
   background-color: var(--first-color-alt);
